@@ -1,0 +1,207 @@
+______________________________________________________________________________________________________________________________________
+
+Write a java program to print your name, street name, city name, state name and country name
+______________________________________________________________________________________________________________________________________
+
+import java.io.*;
+import java.util.Scanner;
+class Main 
+{
+    public static void main(String[] args) 
+    {
+        int rollno;
+        String name, str_name, city_name, state_name, country_name; //string datatype declaration
+        Scanner obj=new Scanner(System.in);
+        System.out.print("Enter the Roll.No: ");
+        rollno=obj.nextInt();
+        obj.nextLine();
+        System.out.print("Enter the Name: ");
+        name=obj.nextLine();
+        System.out.print("Enter the Street Name: ");
+        str_name=obj.nextLine();
+        System.out.print("Enter the City Name: ");
+        city_name=obj.nextLine();
+        System.out.print("Enter the State Name: ");
+        state_name=obj.nextLine();
+        System.out.print("Enter the Country Name: ");
+        country_name=obj.nextLine();
+        System.out.println("Roll.No : "+rollno); 
+        System.out.println("Name : "+name); 
+        System.out.println("Street Name : "+str_name); 
+        System.out.println("City Name : "+city_name); 
+        System.out.println("State Name : "+state_name); 
+        System.out.println("Country_Name : "+country_name); 
+    }
+}
+
+
+______________________________________________________________________________________________________________________________________
+
+Eligible for voting
+______________________________________________________________________________________________________________________________________
+
+import java.io.*;
+import java.util.Scanner;
+class Main 
+{
+    public static void main(String[] args) 
+    {
+        int age;
+        Scanner obj= new Scanner(System.in);
+        System.out.print("Enter the age : ");
+        age=obj.nextInt();
+        obj.nextLine();
+        System.out.println("Age : "+age);
+        if(age>=18)
+           System.out.println("Eligible to vote");
+        else
+           System.out.println("Not Eligible to vote");
+    }
+}
+
+______________________________________________________________________________________________________________________________________
+
+The given number is odd or even
+______________________________________________________________________________________________________________________________________
+
+import java.util.Scanner;
+class Main 
+{
+    public static void main(String[] args) 
+    {
+        int num;
+        Scanner obj= new Scanner(System.in);
+        System.out.print("Enter the number : ");
+        num=obj.nextInt();
+        obj.nextLine();
+        System.out.println("Number : "+num);
+        if(num%2==0)
+           System.out.println("Even");
+        else
+           System.out.println("Odd");
+    }
+}
+
+______________________________________________________________________________________________________________________________________
+
+Boolean datetype
+______________________________________________________________________________________________________________________________________
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+	    boolean gate=true;
+		System.out.println("Gate : "+gate);
+	}
+}
+
+______________________________________________________________________________________________________________________________________
+
+______________________________________________________________________________________________________________________________________
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+	    boolean gate=false;
+		System.out.println("Gate : "+gate);
+		if(gate)
+		{
+		    System.out.println("TRUE");
+		}
+		else
+		{
+		    System.out.println("FALSE");
+	    }
+	}
+}
+--------------------------------------------------------------------------------------------------------------------------------------
+public class Main
+{
+	public static void main(String[] args)
+	{
+	    boolean gate=false;
+		System.out.println("Gate : "+gate);
+		if(gate)
+		{
+		    System.out.println("TRUE");
+		}
+		else
+		{
+		    System.out.println("FALSE");
+	    }
+	}
+}
+______________________________________________________________________________________________________________________________________
+
+Print the student details
+______________________________________________________________________________________________________________________________________
+
+import java.util.Scanner;
+
+class Main
+{
+	public static void main(String[] args)
+	{
+	    Scanner obj= new Scanner(System.in);
+	    int rollno;
+	    String name,branch;
+	    System.out.print("Enter the Roll.no : ");
+	    rollno=obj.nextInt();
+	    obj.nextLine();
+	    System.out.print("Enter the Student Name : ");
+	    name=obj.nextLine();
+	    System.out.print("Enter the Branch : ");
+	    branch=obj.nextLine();
+	    System.out.println("THE STUDENT DETAILS ");
+	    System.out.println("ROLL.NO : "+rollno);
+	    System.out.println("NAME : "+name);
+	    System.out.println("BRANCH : "+branch);
+	}
+}
+______________________________________________________________________________________________________________________________________
+
+Print the six subject marks and Average
+______________________________________________________________________________________________________________________________________
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner obj= new Scanner(System.in);
+		int m1,m2,m3,m4,m5,m6;
+		System.out.print("Enter Mark1 : ");
+		m1=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark2 : ");
+		m2=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark3 : ");
+		m3=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark4 : ");
+		m4=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark5 : ");
+		m5=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark6 : ");
+		m6=obj.nextInt();
+		obj.nextLine();
+		System.out.println("--------------");
+		System.out.println("The Marks are");
+		System.out.println("--------------");
+		System.out.println("Mark1 : "+m1);
+		System.out.println("Mark2 : "+m2);
+		System.out.println("Mark3 : "+m3);
+		System.out.println("Mark4 : "+m4);
+		System.out.println("Mark5 : "+m5);
+		System.out.println("Mark6 : "+m6);
+		int sum,avg;
+		sum=m1+m2+m3+m4+m5+m6;
+		avg=sum/6;
+		System.out.println("The Average Mark:"+avg);
+	}
+}
