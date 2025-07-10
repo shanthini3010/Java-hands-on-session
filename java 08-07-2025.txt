@@ -1,0 +1,34 @@
+1.Print Hello World
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world ");
+    }
+}
+
+______________________________________________________________________________________________________________________________________
+
+
+2. Print the sentences using java
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world ");
+        System.out.println("Shanthini");
+        System.out.println("CCE");
+    }
+}
+
+______________________________________________________________________________________________________________________________________
+
+
+3. Data type declaration
+class Shop
+{
+    public static void main(String[] args) 
+    {
+        int tomato=2;
+        int weigh_machine=0;
+        weigh_machine=tomato;
+        System.out.println("Weigh_machine:"+weigh_machine);
+    }
+}
+______________________________________________________________________________________________________________________________________
