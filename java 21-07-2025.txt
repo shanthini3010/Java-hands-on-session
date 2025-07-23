@@ -1,1 +1,0 @@
-Constructor is a special member function. constructor is called automatically when the object is created.
