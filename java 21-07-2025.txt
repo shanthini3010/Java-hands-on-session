@@ -1,0 +1,31 @@
+Constructor is a special member function. constructor is called automatically when the object is created.
+
+1.
+package java1;
+class Cycle
+{
+	Cycle()
+	{
+		System.out.println("Default Constructor");
+	}
+	Cycle(int i)
+	{
+		int num=i;
+		System.out.println("Paramaterized Constructor");
+	}
+	Cycle(int i, int j)
+	{
+		int num1=i, num2=j;
+		System.out.println("Paramaterized Constructor "+num1+" And "+num2);
+	}
+}
+public class Construct 
+{
+	public static void main(String[] args) 
+	{
+		Cycle obj1=new Cycle();
+		Cycle obj2=new Cycle(100);
+		Cycle obj3=new Cycle(200,400);
+	}
+
+}
